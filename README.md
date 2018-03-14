@@ -1,7 +1,10 @@
-# gossamer
+# gossamer.lein-template
 
 An opinionated Leiningen template to create web applications using the [Bract/Gossamer](https://bract.github.io)
 micro web framework. The template is minimal but can be easily extended, thanks to Bract, in various ways.
+
+
+Latest version: `0.1.0-alpha1`
 
 
 ### Out of the box features
@@ -57,6 +60,7 @@ cd {{project-name}}
 lein ring server-headless  # start web server in dev mode
 lein do clean, uberjar     # generate uberjar
 java -jar {{project-name}}-{{version}}-standalone.jar -vf config/config.edn  # run uberjar
+lein test
 lein repl
 ```
 

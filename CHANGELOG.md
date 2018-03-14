@@ -6,7 +6,7 @@
 - [Todo] global exception handler
 
 
-## [WIP] 0.1.0 / 2018-March-??
+## 0.1.0-alpha1 / 2018-March-14
 
 - Use Bract/Gossamer 0.6.0-alpha1
 - Application
