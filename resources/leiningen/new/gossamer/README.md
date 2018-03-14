@@ -1,0 +1,48 @@
+# {{name}}
+
+{{description}}
+
+## Usage
+
+FIXME
+
+
+## Development
+
+### Build & Run
+
+```shell
+lein do clean, uberjar
+java -jar {{name}}-{{version}}-standalone.jar -vf config/config.edn
+```
+
+
+### Web server in
+
+Start the application using Jetty web server (with automatic namespace-reload support) using the command
+`lein ring server-headless`.
+
+
+### REPL and "Reloaded" support
+
+Start the REPL using `lein repl` command. Enter `(?)` to list convenience functions available for the REPL.
+
+
+### Running tests
+
+Run the tests using `lein test` command. Application initialization is transparently finished before tests are run.
+
+
+### Customization
+
+Switching web server (default is Jetty):
+- Uncomment the desired web server dependency in `project.clj`
+- Update the value of key `:bract.ring/server-starter` in `resources/bract-context.edn`
+
+
+## License
+
+Copyright © 2017-2018 Shantanu Kumar (kumar.shntanu@gmail.com, shantanu.kumar@concur.com)
+
+Distributed under the Eclipse Public License either version 1.0 or (at
+your option) any later version.

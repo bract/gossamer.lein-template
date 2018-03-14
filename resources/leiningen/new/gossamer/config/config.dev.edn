@@ -1,0 +1,4 @@
+{"parent.filenames" ["baseconfig.edn"
+                     "bract/ring/config.dev.edn"
+                     "gossamer/core/config.logback.dev.edn"]
+ }
