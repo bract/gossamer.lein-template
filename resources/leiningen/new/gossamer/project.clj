@@ -9,7 +9,7 @@
                  [bract/bract.cli     "0.6.0-alpha1"]
                  ;; server-side web
                  [bract/bract.ring    "0.6.0-alpha1"]
-                 [bract/gossamer.core "0.6.0-alpha1"]
+                 [bract/gossamer.core "0.6.0-alpha2"]
                  ;; web servers (uncomment any one)
                  ;;[aleph                   "0.4.4" :exclusions [org.clojure/tools.logging]]
                  ;;[http-kit                "2.3.0-beta1"]
