@@ -22,7 +22,7 @@
                        bract.core.inducer/read-config]
  :app/dev-inducers    []
  :bract.core/launcher bract.ring.inducer/start-server
- :bract.ring/server-starter bract.ring.server/start-jetty-server
+ :bract.ring/server-starter bract.ring.server/start-aleph-server
  :app/log-inducers    [bract.core.inducer/export-as-sysprops
                        gossamer.core.inducer/log-mdc-codec-init]
  :app/route-inducers  [gossamer.core.inducer/calfpath-routes->ring-handler

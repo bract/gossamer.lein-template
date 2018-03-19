@@ -11,10 +11,10 @@
                  [bract/bract.ring    "0.6.0-alpha1"]
                  [bract/gossamer.core "0.6.0-alpha2"]
                  ;; web servers (uncomment any one)
-                 ;;[aleph                   "0.4.4" :exclusions [org.clojure/tools.logging]]
+                 [aleph                   "0.4.4" :exclusions [org.clojure/tools.logging]]
                  ;;[http-kit                "2.3.0-beta1"]
                  ;;[org.immutant/immutant   "2.1.10"]
-                 [ring/ring-jetty-adapter "1.6.3"]
+                 ;;[ring/ring-jetty-adapter "1.6.3"]
                  ]
   :target-path "target/%s"
   :plugins [[lein-project-edn "0.2.0"]

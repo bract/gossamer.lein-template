@@ -9,7 +9,7 @@ None
 
 - Use gossamer 0.6.0-alpha2
   - Generate `logback.app.base.package` config entry for included Logback config
-- [Todo] Default to Aleph web server instead of Jetty
+- Default to Aleph web server instead of Jetty
 - [Todo] shutdown hook
 - [Todo] global exception handler
 - [Todo] Generated routes should call fns in web namespace (for reloading to work)
