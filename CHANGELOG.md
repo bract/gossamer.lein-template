@@ -2,8 +2,16 @@
 
 ## TODO
 
+None
+
+
+## [WIP] 0.1.0-alpha2 / 2018-March-??
+
+- [Todo] Use gossamer 0.6.0-alpha2
+  - [Todo] Generate `logback.app.base.package` config entry for included Logback config
 - [Todo] shutdown hook
 - [Todo] global exception handler
+- [Todo] Generated routes should call fns in web namespace (for reloading to work)
 
 
 ## 0.1.0-alpha1 / 2018-March-14
