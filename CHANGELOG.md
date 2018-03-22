@@ -16,7 +16,7 @@ None
 - Logging
   - Generate `logback.app.base.package` config entry for included Logback config
   - Add missing `resources/logback.xml` file
-  - [Todo] Add `util.clj` for logging utility
+  - Add `util.clj` for logging utility
   - [Todo] Add metrics log `application.initialized`
 - Default to Aleph web server instead of Jetty
 - [Todo] shutdown hook
