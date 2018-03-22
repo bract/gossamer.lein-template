@@ -23,6 +23,9 @@
  :app/dev-inducers    []
  :bract.core/launcher bract.ring.inducer/start-server
  :bract.ring/server-starter bract.ring.server/start-aleph-server
+ ;;:bract.ring/server-starter bract.ring.server/start-http-kit-server
+ ;;:bract.ring/server-starter bract.ring.server/start-immutant-server
+ ;;:bract.ring/server-starter bract.ring.server/start-jetty-server
  :app/log-inducers    [bract.core.inducer/export-as-sysprops
                        gossamer.core.inducer/log-mdc-codec-init]
  :app/route-inducers  [gossamer.core.inducer/calfpath-routes->ring-handler
