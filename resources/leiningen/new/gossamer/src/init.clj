@@ -1,9 +1,12 @@
 (ns {{name}}.init
   (:require
-    [{{name}}.web :as web]))
+    [{{name}}.web  :as web]
+    [{{name}}.util :as util]))
 
 
 (defn app-init
   [context]
-  (assoc context
-    :gossamer/calfpath-routes (web/make-routes)))
+  (let [routes (web/make-routes)]
+    (util/metrics "application.initialized")
+    (assoc context
+      :gossamer/calfpath-routes routes)))
