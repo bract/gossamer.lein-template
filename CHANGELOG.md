@@ -7,8 +7,17 @@ None
 
 ## [WIP] 0.1.0-alpha2 / 2018-March-??
 
-- Use gossamer 0.6.0-alpha2
+- Upgrade dependencies
+  - bract.cli  0.6.0-alpha2
+  - bract.dev  0.6.0-alpha2
+  - bract.ring 0.6.0-alpha2
+  - gossamer.core 0.6.0-alpha3
+    - [Todo] Use GA version
+- Logging
   - Generate `logback.app.base.package` config entry for included Logback config
+  - [Todo] Add missing `resources/logback.xml` file
+  - [Todo] Add `util.clj` for logging utility
+  - [Todo] Add metrics log `application.initialized`
 - Default to Aleph web server instead of Jetty
 - [Todo] shutdown hook
 - [Todo] global exception handler
