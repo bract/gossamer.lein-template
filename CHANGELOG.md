@@ -15,7 +15,7 @@ None
     - [Todo] Use GA version
 - Logging
   - Generate `logback.app.base.package` config entry for included Logback config
-  - [Todo] Add missing `resources/logback.xml` file
+  - Add missing `resources/logback.xml` file
   - [Todo] Add `util.clj` for logging utility
   - [Todo] Add metrics log `application.initialized`
 - Default to Aleph web server instead of Jetty
