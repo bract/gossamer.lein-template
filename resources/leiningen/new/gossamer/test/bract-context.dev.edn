@@ -1,4 +1,6 @@
 {"parent.filenames" ["bract-context.edn"]
  :app/cli-inducers  $:app/cfg-inducers
  :app/dev-inducers  [;; record the context for dev workflow
-                     bract.core.dev/record-context!]}
+                     bract.core.dev/record-context!]
+ :app/log-inducers  [bract.core.inducer/export-as-sysprops
+                     gossamer.core.inducer/log-mdc-codec-init-only]}
