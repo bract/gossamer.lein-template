@@ -2,26 +2,24 @@
 
 ## TODO
 
-None
+- [Todo] shutdown hook
+- [Todo] global exception handler
+- [Todo] Generated routes should call fns in web namespace (for reloading to work)
 
 
 ## [WIP] 0.1.0-alpha2 / 2018-March-??
 
 - Upgrade dependencies
-  - bract.cli  0.6.0-alpha2
-  - bract.dev  0.6.0-alpha2
-  - bract.ring 0.6.0-alpha2
+  - bract.cli  0.6.0-alpha3
+  - bract.dev  0.6.0-alpha3
+  - bract.ring 0.6.0-alpha3
   - gossamer.core 0.6.0-alpha3
-    - [Todo] Use GA version
 - Logging
   - Generate `logback.app.base.package` config entry for included Logback config
   - Add missing `resources/logback.xml` file
   - Add `util.clj` for logging utility
   - Emit metrics log `application.initialized` after app init
 - Default to Aleph web server instead of Jetty
-- [Todo] shutdown hook
-- [Todo] global exception handler
-- [Todo] Generated routes should call fns in web namespace (for reloading to work)
 
 
 ## 0.1.0-alpha1 / 2018-March-14
