@@ -7,7 +7,7 @@
 - [Todo] Generated routes should call fns in web namespace (for reloading to work)
 
 
-## [WIP] 0.1.0-alpha2 / 2018-March-??
+## 0.1.0-alpha2 / 2018-March-23
 
 - Upgrade dependencies
   - bract.cli  0.6.0-alpha3
