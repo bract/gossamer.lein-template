@@ -7,7 +7,7 @@
 - [Todo] Generated routes should call fns in web namespace (for reloading to work)
 
 
-## [WIP] 0.1.0-alpha3 / 2018-March-??
+## 0.1.0-alpha3 / 2018-March-25
 
 - Upgrace Bract/Gossamer to 0.6.0-alpha4
 
