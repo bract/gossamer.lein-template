@@ -7,7 +7,7 @@ None
 
 ## [WIP] 0.1.0-alpha4 / 2018-March-??
 
-- [Todo] Make route handlers reloadable with lein-ring
+- Make route handlers reloadable with lein-ring
 - [Todo] shutdown hook
 - [Todo] global exception handler
 - [Todo] Generated routes should call fns in web namespace (for reloading to work)
