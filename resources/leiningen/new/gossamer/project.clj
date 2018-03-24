@@ -6,10 +6,10 @@
   :resource-paths ["resources" "target/generated/resources"]  ; see :project-edn entry
   :pedantic?    :warn
   :dependencies [[org.clojure/clojure "1.9.0"]
-                 [bract/bract.cli     "0.6.0-alpha3"]
+                 [bract/bract.cli     "0.6.0-alpha4"]
                  ;; server-side web
-                 [bract/bract.ring    "0.6.0-alpha3"]
-                 [bract/gossamer.core "0.6.0-alpha3"]
+                 [bract/bract.ring    "0.6.0-alpha4"]
+                 [bract/gossamer.core "0.6.0-alpha4"]
                  ;; web servers (uncomment any one)
                  [aleph                   "0.4.4" :exclusions [org.clojure/tools.logging]]
                  ;;[http-kit                "2.3.0-beta2"]
@@ -26,7 +26,7 @@
          :init    bract.ring.dev/init!
          :port    3000
          :nrepl   {:start? true :port 3001}}
-  :profiles {:dev     {:dependencies [[bract/bract.dev "0.6.0-alpha3"]]
+  :profiles {:dev     {:dependencies [[bract/bract.dev "0.6.0-alpha4"]]
                        :source-paths ["dev"]}
              :uberjar {:aot [bract.core.main]
                        :main ^:skip-aot bract.core.main

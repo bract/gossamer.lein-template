@@ -9,7 +9,7 @@
 
 ## [WIP] 0.1.0-alpha3 / 2018-March-??
 
-- [TODO] Upgrace Bract/Gossamer to 0.6.0-alpha4
+- Upgrace Bract/Gossamer to 0.6.0-alpha4
 
 
 ## 0.1.0-alpha2 / 2018-March-23
