@@ -4,7 +4,7 @@ An opinionated Leiningen template to create web applications using the [Bract/Go
 micro web framework. The template is minimal but can be easily extended, thanks to Bract, in various ways.
 
 
-Latest version (on Clojars): `0.1.0-alpha3`
+Latest version (on Clojars): `0.1.0-alpha4-SNAPSHOT`
 
 
 ### Out of the box features
