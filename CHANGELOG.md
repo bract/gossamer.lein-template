@@ -5,7 +5,7 @@
 None
 
 
-## [WIP] 0.1.0-alpha4 / 2018-March-??
+## 0.1.0-alpha4 / 2018-March-25
 
 - Generated routes call reloadable fns in web namespace (with lein-ring)
 - Add shutdown hook

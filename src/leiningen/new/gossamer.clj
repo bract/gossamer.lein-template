@@ -5,7 +5,7 @@
 (def render (renderer "gossamer"))
 
 (defn gossamer
-  "FIXME: write documentation"
+  "Generate 'gossamer' application."
   [name]
   (let [data {:name name
               :sanitized (name-to-path name)}]
