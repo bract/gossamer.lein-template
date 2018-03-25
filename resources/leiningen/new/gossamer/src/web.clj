@@ -31,7 +31,7 @@ GET  /items/:item-id - get item details"})
 
 (defn make-routes
   []
-  [{:uri "/"      :method :get :handler home}
-   {:uri "/items" :nested [{:method :get  :handler (fn [request] (list-items))}
-                           {:method :post :handler (fn [request] (post-item))}]}
-   {:uri "/items/:item-id"  :method :get  :handler (fn [{item-id :item-id :as request}] (get-item))}])
+  [{:uri "/"                          :method :get :handler home}
+   {:uri "/items"           :nested [{:method :get  :handler (fn [request] (list-items))}
+                                     {:method :post :handler (fn [request] (post-item))}]}
+   {:uri "/items/:item-id"            :method :get  :handler (fn [{item-id :item-id :as request}] (get-item))}])
