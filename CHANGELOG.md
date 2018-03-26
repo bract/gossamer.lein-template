@@ -5,6 +5,12 @@
 None
 
 
+## 0.1.0-beta1 / 2018-March-27
+
+- Upgrade Bract/Gossamer to 0.6.0-beta1
+- Fix uberjar version in README
+
+
 ## 0.1.0-alpha4 / 2018-March-25
 
 - Generated routes call reloadable fns in web namespace (with lein-ring)
