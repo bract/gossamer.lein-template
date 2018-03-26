@@ -13,7 +13,7 @@ FIXME
 
 ```shell
 lein do clean, uberjar
-java -jar {{name}}-{{version}}-standalone.jar -vf config/config.edn
+java -jar {{name}}-0.1.0-SNAPSHOT-standalone.jar -vf config/config.edn
 ```
 
 
