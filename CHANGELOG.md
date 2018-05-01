@@ -2,15 +2,13 @@
 
 ## TODO
 
-None
+- [Todo] Sync up changes in Gossamer `logback.xml` - `units` insted of `hours`
 
 
-## [WIP] 0.1.0-beta2 / 2018-May-??
+## 0.1.0-beta2 / 2018-May-01
 
 - Upgrade Bract/Gosamer to 0.6.0-beta2
 - Fix Copyright template
-- [Todo] Use `merge-launcher-commands`
-- [Todo] Update log config - `units` insted of `hours`
 
 
 ## 0.1.0-beta1 / 2018-March-27
