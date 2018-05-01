@@ -5,6 +5,12 @@
 None
 
 
+## [WIP] 0.1.0-beta2 / 2018-May-??
+
+- [Todo] Use `merge-launcher-commands`
+- [Todo] Update log config - `units` insted of `hours`
+
+
 ## 0.1.0-beta1 / 2018-March-27
 
 - Upgrade Bract/Gossamer to 0.6.0-beta1
