@@ -42,7 +42,7 @@ Switching web server (default is Jetty):
 
 ## License
 
-Copyright © 2017-2018 Shantanu Kumar (kumar.shntanu@gmail.com, shantanu.kumar@concur.com)
+Copyright © 2018 FIXME
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
