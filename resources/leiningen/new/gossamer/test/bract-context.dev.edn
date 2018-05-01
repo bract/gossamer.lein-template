@@ -6,4 +6,5 @@
                       bract.core.dev/record-context!]
  :app/runtime-manage [bract.core.inducer/set-default-exception-handler
                       (bract.core.inducer/set-default-exception-handler
-                        {{name}}.util/handle-uncaught-exception)]}
+                        {{name}}.util/handle-uncaught-exception)]
+ :bract.core/launchers      [bract.ring.inducer/start-server]}

@@ -27,10 +27,10 @@
                        gossamer.core.inducer/apply-route-wrappers]
  :app/init-inducers   [{{name}}.init/app-init]
  :app/dev-inducers    []
- :app/runtime-manage  [bract.core.inducer/add-shutdown-hook
-                       (bract.core.inducer/set-default-exception-handler
+ :app/runtime-manage  [(bract.core.inducer/set-default-exception-handler
                          {{name}}.util/handle-uncaught-exception)]
- :bract.core/launcher       bract.ring.inducer/start-server
+ :bract.core/launchers      [bract.core.inducer/add-shutdown-hook
+                             bract.ring.inducer/start-server]
  :bract.ring/server-starter bract.ring.server/start-aleph-server
  ;;:bract.ring/server-starter bract.ring.server/start-http-kit-server
  ;;:bract.ring/server-starter bract.ring.server/start-immutant-server
