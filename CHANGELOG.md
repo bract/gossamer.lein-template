@@ -2,7 +2,12 @@
 
 ## TODO
 
-- [Todo] Sync up changes in Gossamer `logback.xml` - `units` insted of `hours`
+None
+
+
+## 0.1.0-beta3 / 2018-May-12
+
+- Upgrade Bract/Gosamer to 0.6.0-beta3
 
 
 ## 0.1.0-beta2 / 2018-May-01

@@ -1,4 +1,4 @@
-(defproject gossamer/lein-template "0.1.0-beta2"
+(defproject gossamer/lein-template "0.1.0-beta3"
   :description "A Leiningen template to create web applications using the Bract/Gossamer micro web framework"
   :url "https://github.com/bract/gossamer.lein-template"
   :license {:name "Eclipse Public License"
