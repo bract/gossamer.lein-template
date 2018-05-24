@@ -29,7 +29,7 @@ Latest version (on Clojars): `0.1.1-SNAPSHOT`
   - Ring based request serving and middleware
   - Feature flag based middleware application
   - Data-driven web routing using Ring-handler
-  - Included Jetty web server, easily swappable
+  - Included Aleph web server, easily swappable
 
 
 ### Bract modules/Libraries used
@@ -71,3 +71,4 @@ Copyright © 2018 Shantanu Kumar (kumar.shantanu@gmail.com, shantanu.kumar@concu
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
+
