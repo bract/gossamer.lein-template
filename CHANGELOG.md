@@ -5,7 +5,7 @@
 None
 
 
-## [WIP] 0.1.1 / 2018-May-??
+## 0.1.1 / 2018-May-24
 
 - Fix typo in `?` function in generated `dev/user.clj`
 
