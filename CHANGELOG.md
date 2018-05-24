@@ -7,7 +7,7 @@ None
 
 ## [WIP] 0.1.1 / 2018-May-??
 
-- [Todo] Fix typo in `?` function in generated `dev/user.clj`
+- Fix typo in `?` function in generated `dev/user.clj`
 
 
 ## 0.1.0 / 2018-May-16
