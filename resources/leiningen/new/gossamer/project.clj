@@ -16,6 +16,7 @@
                  ;;[org.immutant/immutant   "2.1.10"]
                  ;;[ring/ring-jetty-adapter "1.6.3"]
                  ]
+  :repl-options {:port 3001}
   :target-path "target/%s"
   :plugins [[lein-project-edn "0.2.0"]
             [lein-ring        "0.12.3"]]

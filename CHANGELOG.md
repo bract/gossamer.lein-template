@@ -9,7 +9,7 @@ None
 
 - Use Bract 0.6.1 components
 - Use Aleph 0.4.6
-- [Todo] Use `:repl-options` to set port to 3001
+- Use `:repl-options` to set port to 3001
 - [Todo] Use reloadable var for homepage handler
 
 
