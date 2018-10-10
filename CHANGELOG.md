@@ -5,6 +5,11 @@
 None
 
 
+## [WIP] 0.1.2 / 2018-October-??
+
+- [Todo] Use Bract 0.6.1 components
+
+
 ## 0.1.1 / 2018-May-24
 
 - Fix typo in `?` function in generated `dev/user.clj`
