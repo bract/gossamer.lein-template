@@ -11,7 +11,7 @@
                  [bract/bract.ring    "0.6.1-0.1.0"]
                  [bract/gossamer.core "0.6.1-0.1.0"]
                  ;; web servers (uncomment any one)
-                 [aleph                   "0.4.4" :exclusions [org.clojure/tools.logging]]
+                 [aleph                   "0.4.6" :exclusions [org.clojure/tools.logging]]
                  ;;[http-kit                "2.3.0"]
                  ;;[org.immutant/immutant   "2.1.10"]
                  ;;[ring/ring-jetty-adapter "1.6.3"]
