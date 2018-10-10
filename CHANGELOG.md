@@ -7,7 +7,10 @@ None
 
 ## [WIP] 0.1.2 / 2018-October-??
 
-- [Todo] Use Bract 0.6.1 components
+- Use Bract 0.6.1 components
+- [Todo] Use Aleph 0.4.6
+- [Todo] Use `:repl-options` to set port to 3001
+- [Todo] Use reloadable var for homepage handler
 
 
 ## 0.1.1 / 2018-May-24
