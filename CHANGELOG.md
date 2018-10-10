@@ -5,7 +5,7 @@
 None
 
 
-## [WIP] 0.1.2 / 2018-October-??
+## 0.1.2 / 2018-October-10
 
 - Use Bract 0.6.1 components
 - Use Aleph 0.4.6
