@@ -2,7 +2,7 @@
 
 
 (defn home
-  [request]
+  []
   {:status 200
    :headers {"Content-Type" "text/plain"}
    :body "Available endpoints:
@@ -26,12 +26,12 @@ GET  /items/:item-id - get item details"})
 (defn get-item
   [item-id]
   {:status 200
-   :body "TODO"})
+   :body (str "TODO - item ID: " item-id)})
 
 
 (defn make-routes
   []
-  [{:uri "/"                          :method :get :handler home}
-   {:uri "/items"           :nested [{:method :get  :handler (fn [request] (list-items))}
-                                     {:method :post :handler (fn [request] (post-item))}]}
-   {:uri "/items/:item-id"            :method :get  :handler (fn [{item-id :item-id :as request}] (get-item))}])
+  [{:uri "/"                         :method :get  :handler (fn [request] (home))}
+   {:uri "/items"          :nested [{:method :get  :handler (fn [request] (list-items))}
+                                    {:method :post :handler (fn [request] (post-item))}]}
+   {:uri "/items/:item-id"           :method :get  :handler (fn [{item-id :item-id :as request}] (get-item item-id))}])
