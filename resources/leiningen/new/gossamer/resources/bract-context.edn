@@ -28,7 +28,7 @@
                        gossamer.core.inducer/calfpath-routes->ring-handler
                        (bract.ring.inducer/apply-wrappers $:app/ring-wrappers)
                        (bract.ring.inducer/apply-middlewares $:app/ring-middleware)]
- :app/ring-wrappers   []  ; override this rto specify Ring wrappers to apply
+ :app/ring-wrappers   []  ; override this to specify Ring wrappers to apply
  :app/ring-middleware []  ; override this to specify Ring middleware to apply
  :app/dev-inducers    []
  :app/runtime-manage  [(bract.core.inducer/set-default-exception-handler
