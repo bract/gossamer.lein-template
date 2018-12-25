@@ -5,9 +5,9 @@
 None
 
 
-## 0.1.3 / 2018-December-??
+## [WIP] 0.1.3 / 2018-December-??
 
-- [Todo] Fix order of applying routes wrappers and calfpath-routes->ring-handler inducers
+- Fix order of applying routes wrappers and calfpath-routes->ring-handler inducers
 - [Todo] Configure wrappers to apply to the Ring handler
 - [Todo] Configure middlewares to apply to the Ring handler
 

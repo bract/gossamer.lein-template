@@ -23,8 +23,8 @@
                        bract.core.inducer/read-config]
  :app/log-inducers    [bract.core.inducer/export-as-sysprops
                        gossamer.core.inducer/log-mdc-codec-init]
- :app/route-inducers  [gossamer.core.inducer/calfpath-routes->ring-handler
-                       gossamer.core.inducer/apply-route-wrappers]
+ :app/route-inducers  [gossamer.core.inducer/apply-route-wrappers
+                       gossamer.core.inducer/calfpath-routes->ring-handler]
  :app/init-inducers   [{{name}}.init/app-init]
  :app/dev-inducers    []
  :app/runtime-manage  [(bract.core.inducer/set-default-exception-handler
