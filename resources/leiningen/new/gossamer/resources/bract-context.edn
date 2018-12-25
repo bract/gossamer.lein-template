@@ -23,9 +23,13 @@
                        bract.core.inducer/read-config]
  :app/log-inducers    [bract.core.inducer/export-as-sysprops
                        gossamer.core.inducer/log-mdc-codec-init]
- :app/route-inducers  [gossamer.core.inducer/apply-route-wrappers
-                       gossamer.core.inducer/calfpath-routes->ring-handler]
  :app/init-inducers   [{{name}}.init/app-init]
+ :app/route-inducers  [gossamer.core.inducer/apply-route-wrappers
+                       gossamer.core.inducer/calfpath-routes->ring-handler
+                       (bract.ring.inducer/apply-wrappers $:app/ring-wrappers)
+                       (bract.ring.inducer/apply-middlewares $:app/ring-middleware)]
+ :app/ring-wrappers   []  ; override this rto specify Ring wrappers to apply
+ :app/ring-middleware []  ; override this to specify Ring middleware to apply
  :app/dev-inducers    []
  :app/runtime-manage  [(bract.core.inducer/set-default-exception-handler
                          {{name}}.util/handle-uncaught-exception)]
