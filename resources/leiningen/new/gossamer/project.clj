@@ -14,7 +14,7 @@
                  [aleph                   "0.4.6" :exclusions [org.clojure/tools.logging]]
                  ;;[http-kit                "2.3.0"]
                  ;;[org.immutant/immutant   "2.1.10"]
-                 ;;[ring/ring-jetty-adapter "1.6.3"]
+                 ;;[ring/ring-jetty-adapter "1.7.1"]
                  ]
   :repl-options {:port 3001}
   :target-path "target/%s"
