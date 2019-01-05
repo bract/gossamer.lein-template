@@ -5,7 +5,7 @@
 None
 
 
-## [WIP] 0.1.4 / 2019-January-??
+## 0.1.4 / 2019-January-06
 
 - Use Clojure 1.10.0
 - Use gossamer.core 0.6.1-0.1.1 (gets Calfpath 0.7.1)
