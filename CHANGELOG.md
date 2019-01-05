@@ -8,6 +8,8 @@ None
 ## [WIP] 0.1.4 / 2019-January-??
 
 - Use gossamer.core 0.6.1-0.1.1 (gets Calfpath 0.7.1)
+- [Todo] Use ring-jetty-adapter 1.7.1 (commented)
+- [Todo] Update copyright version to 2019
 
 
 ## 0.1.3 / 2018-December-25
