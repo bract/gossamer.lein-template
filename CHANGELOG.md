@@ -10,6 +10,7 @@ None
 - Use gossamer.core 0.6.1-0.1.1 (gets Calfpath 0.7.1)
 - [Todo] Use ring-jetty-adapter 1.7.1 (commented)
 - Generate copyright year from the current year
+- Add FIXME label to generated project description
 
 
 ## 0.1.3 / 2018-December-25
