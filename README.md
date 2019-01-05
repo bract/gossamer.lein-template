@@ -4,7 +4,7 @@ An opinionated Leiningen template to create web applications using the [Bract/Go
 micro web framework. The template is minimal but can be easily extended, thanks to Bract, in various ways.
 
 
-Latest version (on Clojars): `0.1.3`
+Latest version (on Clojars): `0.1.4-SNAPSHOT`
 
 
 ### Out of the box features
@@ -67,7 +67,7 @@ lein repl
 
 ## License
 
-Copyright © 2018 Shantanu Kumar (kumar.shantanu@gmail.com, shantanu.kumar@concur.com)
+Copyright © 2018-2019 Shantanu Kumar (kumar.shantanu@gmail.com, shantanu.kumar@concur.com)
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
