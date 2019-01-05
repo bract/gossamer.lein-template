@@ -1,5 +1,5 @@
 (ns leiningen.new.gossamer
-  (:require [leiningen.new.templates :refer [renderer name-to-path ->files]]
+  (:require [leiningen.new.templates :refer [renderer year date name-to-path ->files]]
             [leiningen.core.main :as main]))
 
 (def render (renderer "gossamer"))
@@ -8,7 +8,9 @@
   "Generate 'gossamer' application."
   [name]
   (let [data {:name name
-              :sanitized (name-to-path name)}]
+              :sanitized (name-to-path name)
+              :year (year)
+              :date (date)}]
     (main/info "Generating fresh 'lein new' gossamer project.")
     (->files data
       ["project.clj" (render "project.clj" data)]
