@@ -1,3 +1,4 @@
 {"parent.filenames"       ["gossamer/core/webapp-context.edn"]
  :bract.core/config-files ["baseconfig.edn"]  ; fall back to baseconfig.edn (in classpath) for config
+ :app/init-inducers       [{{name}}.init/app-init]
  }
