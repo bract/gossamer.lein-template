@@ -1,15 +1,6 @@
 {"parent.filenames"    ["bract/ring/config.edn"
                         "gossamer/core/config.edn"
                         "gossamer/core/config.logback.edn"]
- ;; app information
- ;; Default is discovered.app.version, which is the value of :version key in project.edn file in classpath
- "default.app.version" "unknown"
- "app.version"         "${discovered.app.version|default.app.version}"
- ;; host information
- ;; hostname - Name of the host the application is running on
- ;; Env var HOST_NAME, or HOSTNAME (defined on Linux), or HOST (defined on OSX), or COMPUTERNAME (defined on Windows)
- "default.hostname"    "localhost"
- "instance.hostname"   "${HOST_NAME|HOSTNAME|HOST|COMPUTERNAME|discovered.hostname|default.hostname}"
  ;; logback
  "logback.app.base.package" "{{sanitized}}"
  }

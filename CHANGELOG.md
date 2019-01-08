@@ -14,6 +14,7 @@ None
   - bract-context.dev.edn
 - Drop namespaces `app.command` and `app.keydef`
 - Drop utility fn `handle-uncaught-exception`
+- Drop common app config from `baseconfig.edn`
 
 
 ## 0.1.4 / 2019-January-06
