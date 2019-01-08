@@ -1,3 +1,3 @@
 {"parent.filenames"  ["bract-context.edn"
-                      "gossamer/core/webapp-context.edn"]
+                      "gossamer/core/webapp-context.dev.edn"]
  }
