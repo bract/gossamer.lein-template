@@ -9,7 +9,7 @@ None
 
 - Upgrade to gossamer.core 0.6.1-0.2.0
   - Drop dependencies `bract.cli` and `bract.ring`
-- [Todo] Use context from `gossamer/core/webapp-context.edn`
+- Use context from gossamer.core
   - bract-context.edn
   - bract-context.dev.edn
 - [Todo] Drop namespaces `app.command` and `app.keydef`
