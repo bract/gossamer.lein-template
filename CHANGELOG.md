@@ -12,7 +12,7 @@ None
 - Use context from gossamer.core
   - bract-context.edn
   - bract-context.dev.edn
-- [Todo] Drop namespaces `app.command` and `app.keydef`
+- Drop namespaces `app.command` and `app.keydef`
 
 
 ## 0.1.4 / 2019-January-06
