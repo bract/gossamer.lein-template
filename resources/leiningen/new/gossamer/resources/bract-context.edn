@@ -1,4 +1,11 @@
 {"parent.filenames"       ["gossamer/core/webapp-context.edn"]
- :bract.core/config-files ["baseconfig.edn"]  ; fall back to baseconfig.edn (in classpath) for config
- :app/init-inducers       [{{name}}.init/app-init]
+
+ :bract.core/config-files ["baseconfig.edn"]  ; fall back to baseconfig.edn if config file is unspecified
+ :app/init-inducers       [{{name}}.init/app-init] ; overriding the placeholder entry gossamer.core
+
+ ;; HTTP server (uncomment only one of the following, after adding necessary dependency)
+ :bract.ring/server-starter bract.ring.server/start-aleph-server    ; for Aleph server
+ ;; :bract.ring/server-starter bract.ring.server/start-http-kit-server ; for HTTP Kit server
+ ;; :bract.ring/server-starter bract.ring.server/start-immutant-server ; for Immutant server
+ ;; :bract.ring/server-starter bract.ring.server/start-jetty-server    ; for Jetty server
  }
