@@ -5,6 +5,18 @@
 None
 
 
+## 0.2.0 / 2019-January-10
+
+- Upgrade to gossamer.core 0.6.1-0.2.0
+  - Drop dependencies `bract.cli` and `bract.ring`
+- Use context from gossamer.core
+  - bract-context.edn
+  - bract-context.dev.edn
+- Drop namespaces `app.command` and `app.keydef`
+- Drop utility fn `handle-uncaught-exception`
+- Drop common app config from `baseconfig.edn`
+
+
 ## 0.1.4 / 2019-January-06
 
 - Use Clojure 1.10.0

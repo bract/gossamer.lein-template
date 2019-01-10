@@ -35,7 +35,7 @@ Run the tests using `lein test` command. Application initialization is transpare
 
 ### Customization
 
-Switching web server (default is Jetty):
+Switching web server:
 - Uncomment the desired web server dependency in `project.clj`
 - Update the value of key `:bract.ring/server-starter` in `resources/bract-context.edn`
 
