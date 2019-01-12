@@ -7,7 +7,7 @@ None
 
 ## [WIP] 0.2.1 / 2019-January-??
 
-- [Todo] Fix gossamer.core dependency version to `0.2.0` (not SNAPSHOT version)
+- Fix gossamer.core dependency version to `0.2.0` (not SNAPSHOT version)
 
 
 ## 0.2.0 / 2019-January-10

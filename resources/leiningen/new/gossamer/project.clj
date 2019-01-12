@@ -6,7 +6,7 @@
   :resource-paths ["resources" "target/generated/resources"]  ; see :project-edn entry
   :pedantic?    :warn
   :dependencies [[org.clojure/clojure "1.10.0"]
-                 [bract/gossamer.core "0.6.1-0.2.0-SNAPSHOT"]
+                 [bract/gossamer.core "0.6.1-0.2.0"]
                  ;; web servers (uncomment any one)
                  [aleph                   "0.4.6" :exclusions [org.clojure/tools.logging]]
                  ;;[http-kit                "2.3.0"]
