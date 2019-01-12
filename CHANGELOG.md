@@ -5,7 +5,7 @@
 None
 
 
-## [WIP] 0.2.1 / 2019-January-??
+## 0.2.1 / 2019-January-12
 
 - Fix gossamer.core dependency version to `0.2.0` (not SNAPSHOT version)
 
