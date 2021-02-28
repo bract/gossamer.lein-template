@@ -5,7 +5,7 @@
 None
 
 
-## [WIP] 0.3.0 / 2021-February-??
+## 0.3.0 / 2021-February-28
 
 - Use Clojure 1.10.3
 - Upgrade to gossamer.core 0.6.2-0.3.0
