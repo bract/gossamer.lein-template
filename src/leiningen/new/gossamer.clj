@@ -15,7 +15,6 @@
     (->files data
       ["project.clj" (render "project.clj" data)]
       ["README.md"   (render "README.md"   data)]
-      ["dev/user.clj"                    (render "dev/user.clj" data)]
       ["src/{{sanitized}}/init.clj"      (render "src/init.clj" data)]
       ["src/{{sanitized}}/web.clj"       (render "src/web.clj" data)]
       ["src/{{sanitized}}/util.clj"      (render "src/util.clj" data)]
