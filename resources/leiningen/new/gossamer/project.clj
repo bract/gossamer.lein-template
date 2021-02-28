@@ -5,7 +5,7 @@
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :resource-paths ["resources" "target/generated/resources"]  ; see :project-edn entry
   :pedantic?    :warn
-  :dependencies [[org.clojure/clojure "1.10.0"]
+  :dependencies [[org.clojure/clojure "1.10.3-rc1"]
                  [bract/gossamer.core "0.6.2-0.3.0"]
                  ;; web servers (uncomment any one)
                  [aleph                   "0.4.6" :exclusions [org.clojure/tools.logging]]
