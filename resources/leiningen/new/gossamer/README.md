@@ -25,7 +25,7 @@ Start the application using Jetty web server (with automatic namespace-reload su
 
 ### REPL and "Reloaded" support
 
-Start the REPL using `lein repl` command. Enter `(?)` to list convenience functions available for the REPL.
+Start the REPL using `lein repl` command. Enter `(help)` to list convenience functions available for the REPL.
 
 
 ### Running tests
