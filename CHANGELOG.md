@@ -8,11 +8,11 @@ None
 ## [WIP] 0.3.0 / 2021-February-??
 
 - [Todo] Use Clojure 1.10.3
-- [Todo] Upgrade to gossamer.core 0.6.2-0.3.0
-- [Todo] Upgrade to bract.dev 0.6.2
-- [Todo] Set REPL to `bract.dev.repl`
+- Upgrade to gossamer.core 0.6.2-0.3.0
+- Upgrade to bract.dev 0.6.2
+- Set REPL to `bract.dev.repl`
   - Do not generate `dev/user.clj` anymore
-- [Todo] Set DEV mode `:main` to `bract.core.dev`
+- Set DEV mode `:main` to `bract.core.dev`
 
 
 ## 0.2.1 / 2019-January-12

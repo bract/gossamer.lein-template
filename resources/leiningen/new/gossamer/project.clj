@@ -6,14 +6,13 @@
   :resource-paths ["resources" "target/generated/resources"]  ; see :project-edn entry
   :pedantic?    :warn
   :dependencies [[org.clojure/clojure "1.10.0"]
-                 [bract/gossamer.core "0.6.1-0.2.0"]
+                 [bract/gossamer.core "0.6.2-0.3.0"]
                  ;; web servers (uncomment any one)
                  [aleph                   "0.4.6" :exclusions [org.clojure/tools.logging]]
                  ;;[http-kit                "2.5.3"]
                  ;;[org.immutant/immutant   "2.1.10"]
                  ;;[ring/ring-jetty-adapter "1.9.1"]
                  ]
-  :repl-options {:port 3001}
   :target-path "target/%s"
   :plugins [[lein-project-edn "0.2.0"]
             [lein-ring        "0.12.3"]]
@@ -24,8 +23,10 @@
          :init    bract.ring.dev/init!
          :port    3000
          :nrepl   {:start? true :port 3001}}
-  :profiles {:dev     {:dependencies [[bract/bract.dev "0.6.1-0.1.0"]]
-                       :source-paths ["dev"]}
+  :profiles {:dev     {:dependencies [[bract/bract.dev "0.6.2-0.2.0"]]
+                       :main ^:skip-aot bract.core.dev
+                       :repl-options {:init-ns bract.dev.repl
+                                      :port 3001}}
              :uberjar {:aot [bract.core.main]
                        :main ^:skip-aot bract.core.main
                        :pedantic? :abort}})
