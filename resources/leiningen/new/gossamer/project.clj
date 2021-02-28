@@ -9,9 +9,9 @@
                  [bract/gossamer.core "0.6.1-0.2.0"]
                  ;; web servers (uncomment any one)
                  [aleph                   "0.4.6" :exclusions [org.clojure/tools.logging]]
-                 ;;[http-kit                "2.3.0"]
+                 ;;[http-kit                "2.5.3"]
                  ;;[org.immutant/immutant   "2.1.10"]
-                 ;;[ring/ring-jetty-adapter "1.7.1"]
+                 ;;[ring/ring-jetty-adapter "1.9.1"]
                  ]
   :repl-options {:port 3001}
   :target-path "target/%s"
