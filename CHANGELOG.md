@@ -5,7 +5,7 @@
 None
 
 
-## [WIP] 0.3.1 / 2021-March-21
+## 0.3.1 / 2021-March-21
 
 - Use Clojure 1.10.3 GA
 
