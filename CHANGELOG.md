@@ -5,6 +5,11 @@
 None
 
 
+## 0.3.1 / 2021-March-21
+
+- [Todo] Use Clojure 1.10.3 GA
+
+
 ## 0.3.0 / 2021-February-28
 
 - Use Clojure 1.10.3
